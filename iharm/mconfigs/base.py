@@ -5,7 +5,7 @@ BMCONFIGS = {
 ########################
 ###### ViT-based #######
 ########################
-    'ViT_aimc': {
+    'ViT_aict': {
         'model': AICT,
         'params': {'backbone_type': 'ViT',
                    'input_normalization': {'mean': [0, 0, 0], 'std': [1, 1, 1]},

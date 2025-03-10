@@ -39,7 +39,7 @@ def init_model():
         'std': [1, 1, 1]
     }
 
-    ccfg = BMCONFIGS['ViT_aimc']
+    ccfg = BMCONFIGS['ViT_aict']
     ccfg['params']['input_normalization'] = model_cfg.input_normalization   
     model = AICT(**ccfg['params'])
 
