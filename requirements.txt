@@ -1,4 +1,4 @@
-albumentations
+albumentations==1.4.3
 easydict
 einops
 kornia
@@ -10,3 +10,7 @@ torch==1.12.0+cu116
 torchvision==0.13.0+cu116
 tqdm
 matplotlib
+numpy==1.26.4
+thop
+lpips
+scikit-image
